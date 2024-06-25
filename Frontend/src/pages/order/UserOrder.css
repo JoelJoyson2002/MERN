@@ -1,0 +1,303 @@
+/* Custom styles for the entire MDBDataTable component */
+
+.custom-mdb-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left:350px;
+     
+}
+
+/* Custom styles for table headers */
+.custom-mdb-data-table th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Custom styles for table cells */
+.custom-mdb-data-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Custom styles for even rows in the table body */
+.custom-mdb-data-table tbody tr:nth-child(even) {
+    background-color: #edeff0;
+}
+
+/* Custom styles for odd rows in the table body */
+.custom-mdb-data-table tbody tr:nth-child(odd) {
+    background-color: #f0f1ea;
+}
+
+/* Hover effect for table rows */
+.custom-mdb-data-table tbody tr:hover {
+    background-color:rgb(211, 205, 206);
+}
+
+/* Add more styles as needed */
+.Black-hole{
+    margin-left: 200px;
+}
+
+/* Add this CSS to your stylesheet */
+
+
+/* Add this CSS to your App.css or a separate stylesheet */
+
+/*.Cauli table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    margin-left:300px;
+  }
+  
+  .Cauli th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+  }
+  
+  .Cauli th {
+    background-color: #f2f2f2;
+  }
+  
+  .Cauli tr:hover {
+    background-color: #f5f5f5;
+  }
+  .Carrot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+
+  }*/
+
+
+  .Carrot {
+    margin-top: 20px;
+  }
+  
+  .Cauli {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .Cauli th,
+  .Cauli td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .Cauli th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .Cauli tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .Cauli tbody tr:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  .Cauli tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .Cauli td a,
+  .Cauli td button {
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .Cauli td a:hover,
+  .Cauli td button:hover {
+    text-decoration: underline;
+  }
+  
+
+  
+  
+ 
+  
+  
+.Potato {
+    background-color: black;
+   height:70px;
+   
+}
+
+
+
+.Potato .image1{
+    float:left;
+    /*border-radius: 50%;*/
+    width:60px;
+    padding-top:30px;
+    padding-left:150px;
+    height:30px;
+
+}
+
+.Potato .menu{
+    margin-left:250px;
+    padding-top:30px;
+}
+.Potato ul{
+    /*float:left;*/
+    display:flex;
+   /*justify-content: center;*/
+   /* align-items: center;*/
+}
+.Potato ul li{
+    list-style: none;
+    font-size:18px;
+    margin-left:80px;
+    
+    
+}
+.Potato ul li a{
+    text-decoration: none;
+    color:white;
+}
+.Potato ul li a:hover{
+    color:orange ;
+}
+
+
+
+  
+.Tomato .afterlogin{
+  padding-left: 100px;
+  margin-top: -11px;
+}
+
+.custom-dropdown {
+position: relative;
+display: inline-block;
+}
+
+.custom-dropdown .avatar {
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+/* Custom Dropdown Toggle Button */
+.custom-dropdown-toggle {
+/*background-color: #95db34;*/
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Custom Dropdown Menu */
+.custom-dropdown-menu {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: #f0f0f0;
+color: #333;
+border: 1px solid #f51e1e;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+
+.custom-dropdown.show .custom-dropdown-menu {
+display: block;
+}
+
+/* Custom Dropdown Item */
+.custom-dropdown-item {
+color: rgb(15, 15, 14);
+padding: 10px 20px;
+background-color: rgba(255, 255, 255, 0.8);
+
+
+}
+.custom-dropdown-item:last-child {
+border-bottom: none; /* Remove the border for the last item */
+}
+
+.custom-dropdown-item:hover {
+background-color: #ef1e1e;
+color:pink;
+}
+
+/* Highlighted Dropdown Item */
+.custom-dropdown-item-highlight {
+background-color: #FF5733;
+color: #fff;
+}
+
+/* Container for Avatar and Name */
+
+.custom-dropdown-toggle .span{
+    background-color: rgb(245, 250, 250);
+    color:purple;
+    
+   margin-left:2px;
+   
+}
+
+  
+
+.E .image1{
+  float:left;
+  border-radius: 50%;
+  width:60px;
+  padding-top:30px;
+  padding-left:150px;
+  height:30px;
+
+}
+
+.E .menu{
+  margin-left:250px;
+  padding-top:30px;
+}
+.E ul{
+ 
+  display:flex;
+ 
+}
+.E ul li{
+  list-style: none;
+  font-size:18px;
+  margin-left:80px;
+  
+  
+}
+.E ul li a{
+  text-decoration: none;
+  color:white;
+}
+.E ul li a:hover{
+  color:orange ;
+}
+
+
+
+.contact{
+  color:gold;
+  padding-top:100px;
+}
+.con{
+  color:rgb(162, 226, 43);
+  font-weight: bold;
+  font-size: large;
+}

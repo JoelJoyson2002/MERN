@@ -1,0 +1,408 @@
+
+.L {
+    background-color: black;
+   height:70px;
+}
+
+
+
+.L .image1{
+    float:left;
+    border-radius: 50%;
+    width:60px;
+    padding-top:30px;
+    padding-left:150px;
+    height:30px;
+
+}
+
+.L .menu{
+    margin-left:250px;
+    padding-top:30px;
+}
+.L ul{
+    /*float:left;*/
+    display:flex;
+   /*justify-content: center;*/
+   /* align-items: center;*/
+}
+.L ul li{
+    list-style: none;
+    font-size:18px;
+    margin-left:80px;
+    
+    
+}
+.L ul li a{
+    text-decoration: none;
+    color:white;
+}
+.L ul li a:hover{
+    color:orange ;
+}
+
+/*
+
+.L .partition-container {
+    display: flex; 
+    
+  }
+
+
+
+
+
+
+
+.L .partition-1 .rating {
+    display: inline-block;
+  }
+  
+.L .partition-1 .star-16, .star-17, .star-18, .star-19, .star-20{
+    display:inline-block;
+    font-size: 30px; 
+}
+
+
+ .L .partition-1 .star-16, .star-17, .star-18 {
+    
+    color: gold; 
+   
+  }
+ 
+  .L .partition-1 {
+   
+
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    
+    width:250px;
+    height:370px;
+   margin-top: 50px;
+   margin-left: 3px;
+   
+    
+    
+  }
+  .L .partition-1 .b1:hover{
+     color:blue;
+     background-color: lightgreen;
+  }
+  
+  
+.L .partition-2 .rating-2 {
+    display: inline-block;
+  }
+  
+.L .partition-2 .star-21, .star-22, .star-23, .star-24, .star-25{
+    display:inline-block;
+    font-size: 30px; 
+}
+
+
+ .L .partition-2 .star-21, .star-22{
+    
+    color: gold; 
+   
+  }
+ 
+  .L .partition-2 {
+   
+
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    
+    
+    width:250px;
+    height:370px;
+   margin-top: 50px;
+   margin-left: 30px;
+   
+  
+    
+    
+  }
+  .L .partition-2 .b2:hover{
+     color:blue;
+     background-color: lightgreen;
+  }
+  
+  
+
+
+   
+.L .partition-3 .rating-3 {
+    display: inline-block;
+  }
+  
+.L .partition-3 .star-26, .star-27, .star-28, .star-29, .star-30{
+    display:inline-block;
+    font-size: 30px; 
+}
+
+
+ .L .partition-3 .star-26, .star-27, .star-28 ,.star-29{
+    
+    color: gold; 
+   
+  }
+ 
+  .L .partition-3 {
+   
+
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    
+    
+    width:250px;
+    height:370px;
+   margin-top: 50px;
+   margin-left: 30px;
+   
+  
+    
+    
+  }
+  .L .partition-3 .b3:hover{
+     color:blue;
+     background-color: lightgreen;
+  }
+  
+
+  .L .image4{
+       height:250px;
+       width:200px;
+  }
+
+  .L .image2{
+     height:250px;
+     width:250px;
+  }
+  .L .image3{
+    height:250px;
+    width:200px;
+ }
+  
+  */
+
+  
+.L .partition-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+  gap: 20px; /* Add a gap between items */
+}
+
+/* Add this style to target each plumber partition inside the grid */
+.L .partition-container .partition {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 250px;
+  height: 430px;
+  margin-top: 50px;
+  text-align: center; /* Center align content */
+}
+
+
+/* exrea*/
+.L .partition .rating {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.L .partition .star {
+  color: gold;
+  font-size: 20px;
+}
+
+.L .partition .rating span {
+  margin-left: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.L .partition .view-details-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.L .partition .view-details-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Default star styles */
+/* Regular star style */
+/* Styling for star ratings */
+.L .star-h {
+  font-size: 20px; /* Adjust the size of the stars as needed */
+  color: rgb(74, 73, 69); /* Color of the stars */
+  display: inline-block; /* Display stars in a row */
+  
+}
+
+
+.L .filled {
+  font-size: 20px;
+  color: gold; /* Color of filled stars */
+}
+
+.L .partition img{
+  height: 250px;
+  width:200px;
+}
+
+
+
+.loading{
+  font-size: 30px;
+  font-weight: bold;
+  color: #333; /* Set the desired text color */
+  /* Add any other styling you want */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Centers vertically in the viewport */
+
+}
+
+
+.L .afterlogin{
+  padding-left: 100px;
+  margin-top: -11px;
+}
+
+.L .custom-dropdown {
+position: relative;
+display: inline-block;
+}
+
+.L .custom-dropdown .avatar {
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+/* Custom Dropdown Toggle Button */
+.L .custom-dropdown-toggle {
+/*background-color: #95db34;*/
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Custom Dropdown Menu */
+.L .custom-dropdown-menu {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: #f0f0f0;
+color: #333;
+border: 1px solid #f51e1e;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+
+.L .custom-dropdown.show .custom-dropdown-menu {
+display: block;
+}
+
+/* Custom Dropdown Item */
+.L .custom-dropdown-item {
+color: rgb(15, 15, 14);
+padding: 10px 20px;
+background-color: rgba(255, 255, 255, 0.8);
+
+
+}
+.L .custom-dropdown-item:last-child {
+border-bottom: none; /* Remove the border for the last item */
+}
+
+.L .custom-dropdown-item:hover {
+background-color: #ef1e1e;
+color:pink;
+}
+
+/* Highlighted Dropdown Item */
+.L .custom-dropdown-item-highlight {
+background-color: #FF5733;
+color: #fff;
+}
+
+/* Container for Avatar and Name */
+
+.L .custom-dropdown-toggle .span{
+    background-color: rgb(245, 250, 250);
+    color:purple;
+    
+   margin-left:2px;
+   
+}
+
+  
+
+.L .image1{
+  float:left;
+  border-radius: 50%;
+  width:60px;
+  padding-top:30px;
+  padding-left:150px;
+  height:30px;
+
+}
+
+.L .menu{
+  margin-left:250px;
+  padding-top:30px;
+}
+.L ul{
+ 
+  display:flex;
+ 
+}
+.L ul li{
+  list-style: none;
+  font-size:18px;
+  margin-left:80px;
+  
+  
+}
+.L ul li a{
+  text-decoration: none;
+  color:white;
+}
+.L ul li a:hover{
+  color:orange ;
+}
+
+
+
+.L .contact{
+  color:gold;
+  padding-top:100px;
+}
+.L .con{
+  color:rgb(162, 226, 43);
+  font-weight: bold;
+  font-size: large;
+}
+
+
+
+
+
+
+  
+
+  

@@ -1,0 +1,25 @@
+.thank-you {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    border: 5px solid yellow;
+  }
+  
+  .thank-you h2 {
+    margin-bottom: 20px;
+  }
+  
+  .thank-you p {
+    margin-bottom: 20px;
+  }
+  
+  /* Optional: Add more styling as needed */
+  
+
+   .emoji{
+      height: 150px;
+  }

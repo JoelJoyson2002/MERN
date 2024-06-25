@@ -1,0 +1,164 @@
+
+/*.form{
+    width:250px;
+    height:380px;
+    background:linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    position:absolute;
+    left: 500px;
+    top:50px;
+    border-radius: 10px;
+    padding: 20px;
+
+    
+}*/
+
+/*.signup {
+    background:url(../../public/images/image2.jpg);
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    background-blend-mode: screen;
+}
+
+
+form .First{
+    width:250px;
+    height:450px;
+    background:linear-gradient(to top,rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    position: absolute;
+    left: 500px;
+    top:40px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+
+form .First h1{
+    text-align: center;
+    color: orange;
+}
+form .First input{
+    background: transparent;
+    height:20px;
+    width:250px;
+    color:white;
+    padding-top: 10px;
+    font-size:15px;
+    margin-top:20px;
+}
+form .First label{
+    color:orange;
+    float:left;
+}
+form .First button{
+    color:black;
+    background:orange;
+    margin-left:20px;
+    font-size: larger;
+}
+form .First .fw{
+    color:orange;
+}
+form .First a{
+     color:red;
+}
+form .First a:hover{
+    color:lightblue;
+}
+*/
+.signup{
+    background:url(../../public/images/image2.jpg);
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    background-blend-mode: screen;
+}
+
+.First{
+    width:250px;
+    height:400px;
+    background:linear-gradient(to top,rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    position: absolute;
+    left: 500px;
+    top:100px;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+
+.First label{
+    color: orange;
+    position: absolute;
+    left:30px;
+    font-weight: bold;
+}
+
+.First h1{
+    color: orange;
+   
+    text-align: center;
+}
+
+.First .fw{
+    color: orange;
+
+}
+.First input{
+    background: transparent;
+    height:20px;
+    width:250px;
+    color:white;
+    padding-top: 10px;
+    font-size:15px;
+    margin-top:20px;
+}
+.First button{
+    color: black;
+    font-size: larger;
+    background-color: orange;
+}
+
+ .First a{
+    color:red;
+}
+.First a:hover{
+   color:lightblue;
+}
+
+
+.signup .image1{
+    float:left;
+    /*border-radius: 50%;*/
+    width:60px;
+    padding-top:30px;
+    padding-left:150px;
+    height:30px;
+
+}
+
+.signup .menu{
+    margin-left:250px;
+    padding-top:30px;
+}
+.signup ul{
+    /*float:left;*/
+    display:flex;
+   /*justify-content: center;*/
+   /* align-items: center;*/
+}
+.signup ul li{
+    list-style: none;
+    font-size:18px;
+    margin-left:80px;
+    
+    
+}
+.signup ul li a{
+    text-decoration: none;
+    color:white;
+}
+.signup ul li a:hover{
+    color:orange ;
+}

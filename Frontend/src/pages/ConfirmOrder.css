@@ -1,0 +1,317 @@
+.Thumb{
+  margin-bottom: 70px;
+}
+.Index {
+  background-color: black;
+  height:70px;
+}
+
+
+
+.Index .image1{
+  float:left;
+  /*border-radius: 50%;*/
+  width:60px;
+  padding-top:30px;
+  padding-left:150px;
+  height:30px;
+
+}
+
+.Index .menu{
+  margin-left:250px;
+  padding-top:30px;
+}
+.Index ul{
+  /*float:left;*/
+  display:flex;
+ /*justify-content: center;*/
+ /* align-items: center;*/
+}
+.Index ul li{
+  list-style: none;
+  font-size:18px;
+  margin-left:80px;
+  
+  
+}
+.Index ul li a{
+  text-decoration: none;
+  color:white;
+}
+.Index ul li a:hover{
+  color:orange ;
+}
+
+
+
+  
+  
+
+  
+.Thumb .afterlogin{
+  padding-left: 100px;
+  margin-top: -11px;
+}
+
+.custom-dropdown {
+position: relative;
+display: inline-block;
+}
+
+.custom-dropdown .avatar {
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+/* Custom Dropdown Toggle Button */
+.custom-dropdown-toggle {
+/*background-color: #95db34;*/
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Custom Dropdown Menu */
+.custom-dropdown-menu {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: #f0f0f0;
+color: #333;
+border: 1px solid #f51e1e;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+
+.custom-dropdown.show .custom-dropdown-menu {
+display: block;
+}
+
+/* Custom Dropdown Item */
+.custom-dropdown-item {
+color: rgb(15, 15, 14);
+padding: 10px 20px;
+background-color: rgba(255, 255, 255, 0.8);
+
+
+}
+.custom-dropdown-item:last-child {
+border-bottom: none; /* Remove the border for the last item */
+}
+
+.custom-dropdown-item:hover {
+background-color: #ef1e1e;
+color:pink;
+}
+
+/* Highlighted Dropdown Item */
+.custom-dropdown-item-highlight {
+background-color: #FF5733;
+color: #fff;
+}
+
+/* Container for Avatar and Name */
+
+.custom-dropdown-toggle .span{
+    background-color: rgb(245, 250, 250);
+    color:purple;
+    
+   margin-left:2px;
+   
+}
+
+
+.E .image1{
+  float:left;
+  border-radius: 50%;
+  width:60px;
+  padding-top:30px;
+  padding-left:150px;
+  height:30px;
+
+}
+
+.E .menu{
+  margin-left:250px;
+  padding-top:30px;
+}
+.E ul{
+ 
+  display:flex;
+ 
+}
+.E ul li{
+  list-style: none;
+  font-size:18px;
+  margin-left:80px;
+  
+  
+}
+.E ul li a{
+  text-decoration: none;
+  color:white;
+}
+.E ul li a:hover{
+  color:orange ;
+}
+
+
+
+.contact{
+  color:gold;
+  padding-top:100px;
+}
+.con{
+  color:rgb(162, 226, 43);
+  font-weight: bold;
+  font-size: large;
+}
+
+  
+
+/*.Thumb .image1{
+  float:left;
+  border-radius: 50%;
+  width:60px;
+  padding-top:30px;
+  padding-left:150px;
+  height:30px;
+
+}
+
+.Thumb .menu{
+  margin-left:250px;
+  padding-top:30px;
+}
+.Thumb ul{
+ 
+  display:flex;
+ 
+}
+.Thumb ul li{
+  list-style: none;
+  font-size:18px;
+  margin-left:80px;
+  
+  
+}
+.Thumb ul li a{
+  text-decoration: none;
+  color:white;
+}
+.Thumb ul li a:hover{
+  color:orange ;
+}
+
+
+
+.contact{
+  color:gold;
+  padding-top:100px;
+}
+.con{
+  color:rgb(162, 226, 43);
+  font-weight: bold;
+  font-size: large;
+}*/
+
+.Ring{
+   
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-left: 320px;
+   
+  }
+  /*.Little{
+    margin-top:15px;
+    margin-left:-510px;
+    
+  }
+  
+  .Little {
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left:320px;
+    
+
+    
+}*/
+.Little {
+  font-size: 20px;
+  display: flex;
+  
+  align-items: flex-start;
+  margin-top: 20px;
+  
+  margin-left: 330px; 
+  text-align: left;
+}
+
+  
+  /*.Little {
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top:15px;
+    margin-left:-510px;
+
+    
+}*/
+
+.Middle{
+     
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-left: 300px;
+  font-weight: bold;
+
+}
+/*.Index{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}*/
+
+.Toe{
+    margin-left:800px;
+    margin-top:-150px;
+    font-size: 20px;
+
+}
+
+.Nails{
+    font-size: larger;
+}
+.Nails:hover{
+   background-color:lightgreen
+}
+.starss1{
+  margin-left: -150px;
+}
+
+.Middle .starss1{
+  display: flex;
+  justify-content: center;
+
+}
+
+.Heel{
+
+  text-align: left;
+}
+

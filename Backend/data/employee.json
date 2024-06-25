@@ -1,0 +1,57 @@
+[{
+    "name": "Messi",
+    "age":36,
+    "rating":"4.9",
+    "images":[
+        {
+            "Filename":"123.jpg"
+        }
+    ],
+   
+    "experience":"15",
+    
+    "contact":876543456,
+    "email":"messi@gmail.com",
+    "location":"Argentina",
+    "workingHour":"9am to 5pm",
+    "specialist":"forward",
+    "serviceCharge":450,
+    "accept":"ok",
+    "arrivingTime":"4:00pm",
+    "arrivingDate":"",
+    "category":"automobiles"
+           
+
+
+
+        },{
+            "name": "Ronaldo",
+            "age":36,
+            "rating":"4.9",
+            "images":[
+                {
+                    "Filename":"123.jpg"
+                }
+            ],
+            "review":[
+                
+            ],
+            "experience":"15",
+            
+            "contact":876543456,
+            "email":"messi@gmail.com",
+            "location":"Chennai",
+            "workingHour":"9am to 5pm",
+            
+            "serviceCharge":450,
+            
+           
+            "service_type":"plumber"
+                   
+        
+        
+        }
+        
+    
+
+]

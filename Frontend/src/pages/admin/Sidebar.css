@@ -1,0 +1,84 @@
+/* Add your specific styling here */
+/*.sidebar-wrapper {
+    height: 80%;
+    background-color: #343a40; /* Change the background color as needed 
+    padding-top: 110px;
+  }*/
+  
+  #sidebar {
+    
+    
+   
+    /*background-color: #343a40; /* Change the background color as needed */
+    background-color:#343a40;
+    height:720px;
+    margin-top: -33px;
+    width:200px;
+    color:white;
+    
+  }
+
+  .sidebar-wrapper li {
+    display: flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    flex: 8 963%;
+    
+  }
+
+  .sidebar-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50px;
+  }
+  
+
+  .Snake{
+    margin-top: 30px;
+    margin-left:-10px;
+  }
+  .SweetPotato{
+    margin-top: 20px;
+    margin-left:70px;
+    font-size: 20px;
+  }
+  .Bottle{
+    margin-top: 20px;
+    margin-left:-10px;
+  }
+  .Corn{
+    margin-top: 20px;
+    margin-left:-10px;
+    
+  }
+
+  .Raddish{
+    margin-top: 20px;
+    margin-left:-10px;
+  }
+   .ElephantFoot{
+    margin-top: 20px;
+    margin-left:10px;
+   }
+   .Cabbage{
+    margin-top: 20px;
+    margin-left:10px;
+   }
+
+   .Blueberry{
+    margin-top: 20px;
+    margin-left:-40px;
+   }
+
+  .ElephantFoot:hover {
+    
+    cursor: pointer; /* Optional: Change the cursor on hover */
+    color:rgb(14, 13, 13)
+}
+  
+.sidebar-wrapper li :hover{
+  background-color: white;
+  color:black;
+  cursor:pointer;
+}
+  

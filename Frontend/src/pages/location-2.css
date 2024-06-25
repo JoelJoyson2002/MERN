@@ -1,0 +1,269 @@
+/*.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(165, 21, 21, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }*/
+  .Rambutan{
+    background-color:black;
+    height:3px;
+}
+
+    
+
+.Rambutan .image1{
+    float:left;
+    /*border-radius: 50%;*/
+    width:60px;
+    padding-top:30px;
+    padding-left:150px;
+    height:30px;
+
+}
+
+.Rambutan .menu{
+    margin-left:250px;
+    padding-top:30px;
+}
+.Rambutan ul{
+   
+    display:flex;
+   
+}
+.Rambutan ul li{
+    list-style: none;
+    font-size:18px;
+    margin-left:80px;
+    
+    
+}
+.Rambutan ul li a{
+    text-decoration: none;
+    color:white;
+}
+.Rambutan ul li a:hover{
+    color:orange ;
+}
+
+
+
+/*
+.H h2{
+       padding-top:60px;
+}
+
+.H .box-1{
+    border: solid 5px orange;
+    padding-top:50px;
+    margin:20px;
+    width:120px;
+    height:60px;
+    float:left;
+    margin-left:230px;
+}
+
+.H .box-2{
+    border: solid 5px orange;
+    padding-top:50px;
+    margin:20px;
+    width:120px;
+    height:60px;
+    float:right;
+    margin-right:230px;
+}
+
+.H .box-3{
+    border: solid 5px orange;
+    padding-top:50px;
+    margin:20px;
+    width:120px;
+    height:60px;
+    float:left;
+}
+
+.H .box-4{
+    border: solid 5px orange;
+    padding-top:50px;
+    margin:20px;
+    width:120px;
+    height:60px;
+    float:right;
+}
+
+
+
+.H .box-6{
+    border: solid 5px orange;
+    padding-top:50px;
+    margin:20px;
+    width:120px;
+    height:60px;
+    float:right;
+    
+}
+
+.H .boxes{
+    padding-top:50px;
+}
+
+.H .box-1:hover{
+    background-color: rgb(8, 242, 74);
+}
+.H .box-2:hover{
+    background-color: rgb(8, 242, 74);
+}
+.H .box-3:hover{
+    background-color:  rgb(8, 242, 74);
+}
+.H .box-4:hover{
+    background-color: rgb(8, 242, 74);
+}
+.H .box-5:hover{
+    background-color:  rgb(8, 242, 74);
+}
+.H .box-6:hover{
+    background-color:  rgb(8, 242, 74);
+}*/
+
+
+
+.Rambutan .afterlogin{
+    padding-left: 100px;
+    margin-top: -11px;
+}
+
+.custom-dropdown {
+ position: relative;
+ display: inline-block;
+}
+
+.custom-dropdown .avatar {
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+
+/* Custom Dropdown Toggle Button */
+.custom-dropdown-toggle {
+ /*background-color: #95db34;*/
+ color: #fff;
+ border: none;
+ padding: 10px 20px;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+/* Custom Dropdown Menu */
+.custom-dropdown-menu {
+ display: none;
+ position: absolute;
+ top: 100%;
+ left: 0;
+ background-color: #f0f0f0;
+ color: #333;
+ border: 1px solid #f51e1e;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+ border-radius: 5px;
+}
+
+.custom-dropdown.show .custom-dropdown-menu {
+ display: block;
+}
+
+/* Custom Dropdown Item */
+.custom-dropdown-item {
+ color: rgb(15, 15, 14);
+ padding: 10px 20px;
+ background-color: rgba(255, 255, 255, 0.8);
+ 
+
+}
+.custom-dropdown-item:last-child {
+ border-bottom: none; /* Remove the border for the last item */
+}
+
+.custom-dropdown-item:hover {
+ background-color: #ef1e1e;
+ color:pink;
+}
+
+/* Highlighted Dropdown Item */
+.custom-dropdown-item-highlight {
+ background-color: #FF5733;
+ color: #fff;
+}
+
+/* Container for Avatar and Name */
+
+.custom-dropdown-toggle .span{
+      background-color: rgb(245, 250, 250);
+      color:purple;
+      
+     margin-left:2px;
+     
+}
+
+.run-machine{
+    color:orange;
+}
+
+  
+  .popup-box {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin-left:330px;
+  }
+  
+  .popup-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .popup-box .half {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top; /* Align halves to the top */
+  }
+  
+  .popup-box .half h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .popup-box .box {
+    background-color: #f4f4f4;
+    padding: 10px; /* Adjust the padding */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+
+  }
+  
+  .popup-box .box:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .popup-box .box .letters {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .popup-box .box .letters:hover {
+    color: #555;
+  }
+  
+
+
+  

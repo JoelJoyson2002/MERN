@@ -1,0 +1,118 @@
+
+.fpage .image1{
+    float:left;
+    /*border-radius: 50%;*/
+    width:60px;
+    padding-top:30px;
+    padding-left:150px;
+    height:30px;
+
+}
+
+.fpage .menu{
+    margin-left:250px;
+    padding-top:30px;
+}
+.fpage ul{
+   
+    display:flex;
+   
+}
+.fpage ul li{
+    list-style: none;
+    font-size:18px;
+    margin-left:80px;
+    
+    
+}
+.fpage ul li a{
+    text-decoration: none;
+    color:white;
+}
+.fpage ul li a:hover{
+    color:orange ;
+}
+
+
+.fpage{
+    background:url(../../public/images/image2.jpg);
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    background-blend-mode: screen;
+}
+
+
+.f2{
+    width:250px;
+    height:300px;
+    background:linear-gradient(to top,rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    position: absolute;
+    left: 500px;
+    top:160px;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+
+.f2 label{
+    color: orange;
+    position: absolute;
+    left:30px;
+    font-weight: bold;
+}
+
+.f2 h1{
+    color: orange;
+   
+    text-align: center;
+}
+
+.f2 .fw{
+    color: orange;
+
+}
+.f2 input{
+    background: transparent;
+    height:20px;
+    width:250px;
+    color:white;
+    padding-top: 10px;
+    font-size:15px;
+    margin-top:20px;
+}
+.f2 button{
+    color: black;
+    font-size: larger;
+    background-color: orange;
+}
+
+ .f2 a{
+    color:red;
+}
+.f2 a:hover{
+   color:lightblue;
+}
+.Gingka{
+    padding-right :0px;
+}
+.form-2{
+    position: relative;
+}
+.cmp{
+    cursor: pointer;
+    color: aliceblue;
+    transform: translate(0px,-30px);
+    margin-left: 35%;
+    font-size: 20px;
+    position: absolute;
+}
+.Drago{
+    margin-left:20px;
+    color: blue;
+}
+
+.Drago:hover{
+    color:yellowgreen
+}

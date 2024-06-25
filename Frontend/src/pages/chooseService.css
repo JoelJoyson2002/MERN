@@ -1,0 +1,263 @@
+
+
+.I {
+    background-color: black;
+   height:70px;
+}
+
+
+
+.I .image1{
+    float:left;
+    /*border-radius: 50%;*/
+    width:60px;
+    padding-top:30px;
+    padding-left:150px;
+    height:30px;
+
+}
+
+.I .menu{
+    margin-left:250px;
+    padding-top:30px;
+}
+.I ul{
+    /*float:left;*/
+    display:flex;
+   /*justify-content: center;*/
+   /* align-items: center;*/
+}
+.I ul li{
+    list-style: none;
+    font-size:18px;
+    margin-left:80px;
+    
+    
+}
+.I ul li a{
+    text-decoration: none;
+    color:white;
+}
+.I ul li a:hover{
+    color:orange ;
+}
+
+/*
+
+.J h2{
+    padding-top: 50px;
+}
+
+
+.J .circle-1{
+    border: solid 5px orange;
+    padding-top:50px;
+    margin:20px;
+    width:120px;
+    height:60px;
+    float:left;
+    margin-left:230px;
+}
+
+.J .circle-2{
+    border: solid 5px orange;
+    padding-top:50px;
+    margin:20px;
+    width:120px;
+    height:60px;
+    float:right;
+    margin-right: 230px;
+   
+}
+
+.J .circle-3{
+    border: solid 5px orange;
+    padding-top:50px;
+    margin:20px;
+    width:120px;
+    height:60px;
+    float:left;
+}
+
+.J .circle-4{
+    border: solid 5px orange;
+    padding-top:50px;
+    margin:20px;
+    width:120px;
+    height:60px;
+    float:right;
+}
+
+.J .circle-5{
+    border: solid 5px orange;
+    padding-top:50px;
+    margin:20px;
+    width:120px;
+    height:60px;
+    float:left;
+}
+
+
+
+
+.J .Circles{
+    padding-top:50px;
+}
+
+.J .circle-1:hover{
+    background-color: rgb(8, 242, 74);
+}
+.J .circle-2:hover{
+    background-color: rgb(8, 242, 74);
+}
+.J .circle-3:hover{
+    background-color:  rgb(8, 242, 74);
+}
+.J .circle-4:hover{
+    background-color: rgb(8, 242, 74);
+}
+.J .circle-5:hover{
+    background-color:  rgb(8, 242, 74);
+}
+.J .circle-6:hover{
+    background-color:  rgb(8, 242, 74);
+}
+.J .circle-7:hover{
+    background-color: rgb(8, 242, 74);
+}*/
+
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    
+    .custom-dropdown .avatar {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    }
+    
+    /* Custom Dropdown Toggle Button */
+    .custom-dropdown-toggle {
+    /*background-color: #95db34;*/
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    /* Custom Dropdown Menu */
+    .custom-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #f51e1e;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    }
+    
+    .custom-dropdown.show .custom-dropdown-menu {
+    display: block;
+    }
+    
+    /* Custom Dropdown Item */
+    .custom-dropdown-item {
+    color: rgb(15, 15, 14);
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    
+    }
+    .custom-dropdown-item:last-child {
+    border-bottom: none; /* Remove the border for the last item */
+    }
+    
+    .custom-dropdown-item:hover {
+    background-color: #ef1e1e;
+    color:pink;
+    }
+    
+    /* Highlighted Dropdown Item */
+    .custom-dropdown-item-highlight {
+    background-color: #FF5733;
+    color: #fff;
+    }
+    
+    /* Container for Avatar and Name */
+    
+    .custom-dropdown-toggle .span{
+        background-color: rgb(245, 250, 250);
+        color:purple;
+        
+       margin-left:2px;
+       
+    }
+    
+.I .afterlogin{
+    padding-left: 100px;
+    margin-top: -11px;
+}
+
+
+
+.J {
+    text-align: center;
+  }
+  
+  .Circles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .Circles .letters {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .circle-1,
+  .circle-2,
+  .circle-3,
+  .circle-4,
+  .circle-5 {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  /* Add more styles for additional circles if needed */
+  .circle-2 {
+    background-color: #ffcc00; /* Yellow */
+  }
+  
+  .circle-3 {
+    background-color: #3399ff; /* Blue */
+  }
+  
+  .circle-4 {
+    background-color: #66cc66; /* Green */
+  }
+  
+  .circle-5 {
+    background-color: #cc6699; /* Purple */
+  }
+
+  
+  .circle-1:hover,
+.circle-2:hover,
+.circle-3:hover,
+.circle-4:hover,
+.circle-5:hover {
+  background-color: lightsalmon; /* Darker shade on hover */
+}

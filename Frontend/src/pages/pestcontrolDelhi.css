@@ -1,0 +1,408 @@
+
+.G1 {
+    background-color: black;
+   height:70px;
+}
+
+
+
+.G1 .image1{
+    float:left;
+    border-radius: 50%;
+    width:60px;
+    padding-top:30px;
+    padding-left:150px;
+    height:30px;
+
+}
+
+.G1 .menu{
+    margin-left:250px;
+    padding-top:30px;
+}
+.G1 ul{
+    /*float:left;*/
+    display:flex;
+   /*justify-content: center;*/
+   /* align-items: center;*/
+}
+.G1 ul li{
+    list-style: none;
+    font-size:18px;
+    margin-left:80px;
+    
+    
+}
+.G1 ul li a{
+    text-decoration: none;
+    color:white;
+}
+.G1 ul li a:hover{
+    color:orange ;
+}
+
+/*
+
+.G1 .partition-container {
+    display: flex; 
+    
+  }
+
+
+
+
+
+
+
+.G1 .partition-1 .rating {
+    display: inline-block;
+  }
+  
+.G1 .partition-1 .star-331, .G1 .partition-1 .star-332, .G1 .partition-1 .star-333, .G1 .partition-1 .star-334, .G1 .partition-1 .star-335{
+    display:inline-block;
+    font-size: 30px; 
+}
+
+
+ .G1 .partition-1 .star-331, .G1 .partition-1 .star-332, .G1 .partition-1 .star-333 {
+    
+    color: gold; 
+   
+  }
+ 
+  .G1 .partition-1 {
+   
+
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    
+    width:250px;
+    height:370px;
+   margin-top: 50px;
+   margin-left: 3px;
+   
+    
+    
+  }
+  .G1 .partition-1 .b1:hover{
+     color:blue;
+     background-color: lightgreen;
+  }
+  
+  
+.G1 .partition-2 .rating-2 {
+    display: inline-block;
+  }
+  
+.G1 .partition-2 .star-336, .star-337, .star-338, .star-339, .star-340{
+    display:inline-block;
+    font-size: 30px; 
+}
+
+
+ .G1 .partition-2 .star-336,.G1 .partition-2 .star-337 ,.G1 .partition-2 .star-338{
+    
+    color: gold; 
+   
+  }
+ 
+  .G1 .partition-2 {
+   
+
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    
+    width:250px;
+    height:370px;
+   margin-top: 50px;
+   margin-left: 30px;
+   
+  
+    
+    
+  }
+  .G1 .partition-2 .b2:hover{
+     color:blue;
+     background-color: lightgreen;
+  }
+  
+  
+
+
+   
+.G1 .partition-3 .rating-3 {
+    display: inline-block;
+  }
+  
+.G1 .partition-3 .star-341, .star-342, .star-343, .star-344, .star-345{
+    display:inline-block;
+    font-size: 30px; 
+}
+
+
+ .G1 .partition-3 .star-341, .G1 .partition-3 .star-342,.G1 .partition-3 .star-343,.G1 .partition-3 .star-344{
+    
+    color: gold; 
+   
+  }
+
+ 
+  .G1 .partition-3 {
+   
+
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    
+    width:250px;
+    height:370px;
+   margin-top: 50px;
+   margin-left: 30px;
+   
+  
+    
+    
+  }
+  .G1 .partition-3 .b3:hover{
+     color:blue;
+     background-color: lightgreen;
+  }
+  
+
+  .G1 .image4{
+       height:250px;
+       width:200px;
+  }
+
+  .G1 .image2{
+     height:250px;
+     width:250px;
+  }
+  .G1 .image3{
+    height:250px;
+    width:200px;
+ }
+  */
+
+          
+.G1 .partition-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+  gap: 20px; /* Add a gap between items */
+}
+
+/* Add this style to target each plumber partition inside the grid */
+.G1 .partition-container .partition {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 250px;
+  height: 430px;
+  margin-top: 50px;
+  text-align: center; /* Center align content */
+}
+
+
+/* exrea*/
+.G1 .partition .rating {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.G1 .partition .star {
+  color: gold;
+  font-size: 20px;
+}
+
+.G1 .partition .rating span {
+  margin-left: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.G1 .partition .view-details-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.G1 .partition .view-details-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Default star styles */
+/* Regular star style */
+/* Styling for star ratings */
+.star-h {
+  font-size: 20px; /* Adjust the size of the stars as needed */
+  color: rgb(74, 73, 69); /* Color of the stars */
+  display: inline-block; /* Display stars in a row */
+  
+}
+
+
+.filled {
+  font-size: 20px;
+  color: gold; /* Color of filled stars */
+}
+
+.G1 .partition img{
+  height: 250px;
+  width:200px;
+}
+
+ .loading{
+  font-size: 30px;
+  font-weight: bold;
+  color: #333; /* Set the desired text color */
+  /* Add any other styling you want */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Centers vertically in the viewport */
+
+}
+
+
+.G1 .afterlogin{
+  padding-left: 100px;
+  margin-top: -11px;
+}
+
+.custom-dropdown {
+position: relative;
+display: inline-block;
+}
+
+.custom-dropdown .avatar {
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+/* Custom Dropdown Toggle Button */
+.custom-dropdown-toggle {
+/*background-color: #95db34;*/
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Custom Dropdown Menu */
+.custom-dropdown-menu {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: #f0f0f0;
+color: #333;
+border: 1px solid #f51e1e;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+
+.custom-dropdown.show .custom-dropdown-menu {
+display: block;
+}
+
+/* Custom Dropdown Item */
+.custom-dropdown-item {
+color: rgb(15, 15, 14);
+padding: 10px 20px;
+background-color: rgba(255, 255, 255, 0.8);
+
+
+}
+.custom-dropdown-item:last-child {
+border-bottom: none; /* Remove the border for the last item */
+}
+
+.custom-dropdown-item:hover {
+background-color: #ef1e1e;
+color:pink;
+}
+
+/* Highlighted Dropdown Item */
+.custom-dropdown-item-highlight {
+background-color: #FF5733;
+color: #fff;
+}
+
+/* Container for Avatar and Name */
+
+.custom-dropdown-toggle .span{
+    background-color: rgb(245, 250, 250);
+    color:purple;
+    
+   margin-left:2px;
+   
+}
+
+  
+
+.E .image1{
+  float:left;
+  border-radius: 50%;
+  width:60px;
+  padding-top:30px;
+  padding-left:150px;
+  height:30px;
+
+}
+
+.E .menu{
+  margin-left:250px;
+  padding-top:30px;
+}
+.E ul{
+ 
+  display:flex;
+ 
+}
+.E ul li{
+  list-style: none;
+  font-size:18px;
+  margin-left:80px;
+  
+  
+}
+.E ul li a{
+  text-decoration: none;
+  color:white;
+}
+.E ul li a:hover{
+  color:orange ;
+}
+
+
+
+.contact{
+  color:gold;
+  padding-top:100px;
+}
+.con{
+  color:rgb(162, 226, 43);
+  font-weight: bold;
+  font-size: large;
+}
+
+
+
+
+
+
+  
+
+  
+
+  
+  
+  
